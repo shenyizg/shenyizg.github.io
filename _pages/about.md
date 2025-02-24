@@ -54,7 +54,9 @@ Services
   * IEEE Transactions on Emerging Topics in Computing (TETC)
   * ACM Transactions on Cyber-Physical Systems (TCPS)
   * ACM Transactions on Internet Technology (TOIT)
+  * Neurocomputing
   * IEEE ICME 2024, 2025
+  * IJCNN 2025
 
 
 Projects
