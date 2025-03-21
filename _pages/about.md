@@ -17,6 +17,9 @@ Contact me at [shenyizhang@whu.edu.cn](mailto:shenyizhang@whu.edu.cn) or [syzhan
 Publications
 ======
 **2025**
+* **Selective Masking Adversarial Attack on Automatic Speech Recognition Systems**  
+  Zheng Fang, **Shenyi Zhang**, Tao Wang, Bowen Li, Lingchen Zhao, Zhangyi Wang  
+  _IEEE International Conference on Multimedia and Expo (ICME), 2025_  
 * **JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation**  
   **Shenyi Zhang**, Yuchen Zhai, Keyan Guo, Hongxin Hu, Shengnan Guo, Zheng Fang, Lingchen Zhao, Chao Shen, Cong Wang, Qian Wang  
   _USENIX Security Symposium, 2025_  
