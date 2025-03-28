@@ -54,6 +54,7 @@ Services
 ======
 * Reviewer
   * IEEE Transactions on Information Forensics and Security (TIFS)
+  * IEEE Transactions on Dependable and Secure Computing (TDSC)
   * IEEE Transactions on Emerging Topics in Computing (TETC)
   * ACM Transactions on Cyber-Physical Systems (TCPS)
   * ACM Transactions on Internet Technology (TOIT)
