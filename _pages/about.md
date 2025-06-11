@@ -60,6 +60,7 @@ Services
   * IEEE/ACM Transactions on Networking (TON)
   * ACM Transactions on Cyber-Physical Systems (TCPS)
   * ACM Transactions on Internet Technology (TOIT)
+  * Knowledge-Based Systems (KBS)
   * Neurocomputing
   * ACM MM 2025
   * IEEE ICME 2024, 2025
