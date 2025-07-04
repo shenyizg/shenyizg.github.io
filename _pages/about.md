@@ -17,6 +17,9 @@ Contact me at [shenyizhang@whu.edu.cn](mailto:shenyizhang@whu.edu.cn) or [syzhan
 Publications
 ======
 **2025**
+* **IntentBreaker: Intent-Adaptive Jailbreak Attack on Large Language Models**  
+  Shengnan Guo, Yuchen Zhai, **Shenyi Zhang**, Lingchen Zhao, Zhangyi Wang  
+  _European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), 2025_  
 * **Selective Masking Adversarial Attack on Automatic Speech Recognition Systems**  
   Zheng Fang, **Shenyi Zhang**, Tao Wang, Bowen Li, Lingchen Zhao, Zhangyi Wang  
   _IEEE International Conference on Multimedia and Expo (ICME), 2025_  
