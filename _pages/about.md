@@ -63,6 +63,7 @@ Services
   * IEEE/ACM Transactions on Networking (TON)
   * ACM Transactions on Cyber-Physical Systems (TCPS)
   * ACM Transactions on Internet Technology (TOIT)
+  * Computer Vision and Image Understanding (CVIU)
   * Knowledge-Based Systems (KBS)
   * Neurocomputing
   * ACM MM 2025
