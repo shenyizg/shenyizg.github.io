@@ -28,7 +28,7 @@ Publications
 * **JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation**  
   **Shenyi Zhang**, Yuchen Zhai, Keyan Guo, Hongxin Hu, Shengnan Guo, Zheng Fang, Lingchen Zhao, Chao Shen, Cong Wang, Qian Wang  
   _USENIX Security Symposium, 2025_  
-  [[paper]](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shenyi)  [[preprint]](https://arxiv.org/abs/2502.07557)  [[code]](https://github.com/NISPLab/JBShield)  [[Slides]](https://github.com/shenyizg/shenyizg.github.io/blob/master/_talks/slide-jbshield.pdf)
+  [[paper]](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shenyi)  [[preprint]](https://arxiv.org/abs/2502.07557)  [[code]](https://github.com/NISPLab/JBShield)  [[slides]](https://github.com/shenyizg/shenyizg.github.io/blob/master/_talks/slide-jbshield.pdf)
 
 **2024**
 * **Zero-query Adversarial Attack on Black-box Automatic Speech Recognition Systems**  
@@ -77,5 +77,5 @@ Services
  
 Talks
 ======
-* ACM SIGSAC China Postgraduate Academic Forum on Cyberspace Security, 2025 [[Talk]](https://www.bilibili.com/video/BV1pEn7zdExm/)
-* JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation, USENIX Security, 2025  [[Slides]](https://github.com/shenyizg/shenyizg.github.io/blob/master/_talks/slide-jbshield.pdf).
+* ACM SIGSAC China Postgraduate Academic Forum on Cyberspace Security, 2025 [[talk]](https://www.bilibili.com/video/BV1pEn7zdExm/)
+* JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation, USENIX Security, 2025  [[slides]](https://github.com/shenyizg/shenyizg.github.io/blob/master/_talks/slide-jbshield.pdf)
