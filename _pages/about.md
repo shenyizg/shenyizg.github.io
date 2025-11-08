@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student at [School of Cyber Science and Engineering](https://cse.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/), where I am conducting research in AI Security. I am very fortunate to be advised by [Prof. Qian Wang](https://nisplab.whu.edu.cn/People.htm) of [NIS&P Lab](https://nisplab.whu.edu.cn/index.htm). My works primarily focus on adversarial robustness of AI systems, safety alignment for large language models, etc. 
+I'm a Ph.D. student at [School of Cyber Science and Engineering](https://cse.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/), where I am conducting research in AI Security. I am very fortunate to be advised by [Prof. Qian Wang](https://nisplab.whu.edu.cn/People.htm) of [NIS&P Lab](https://nisplab.whu.edu.cn/index.htm). My works primarily focus on adversarial robustness of AI systems, especially safety alignment and privacy in large language models. 
 
 Previously, I received the B.E. degree in communication engineering from Shandong University in 2019 and the M.S. degree in electronic information from Wuhan University, China, in 2022.
 
@@ -20,7 +20,7 @@ Publications
 * **IntentBreaker: Intent-Adaptive Jailbreak Attack on Large Language Models**  
   Shengnan Guo, Yuchen Zhai, **Shenyi Zhang**, Lingchen Zhao, Zhangyi Wang  
   _European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), 2025_  
-  [[paper]](https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/preprints/2025/research/preprint_ecml_pkdd_2025_research_407.pdf)  
+  [[paper]](https://link.springer.com/chapter/10.1007/978-3-032-06078-5_14)  
 * **Selective Masking Adversarial Attack on Automatic Speech Recognition Systems**  
   Zheng Fang, **Shenyi Zhang**, Tao Wang, Bowen Li, Lingchen Zhao, Zhangyi Wang  
   _IEEE International Conference on Multimedia and Expo (ICME), 2025_  
@@ -28,7 +28,7 @@ Publications
 * **JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation**  
   **Shenyi Zhang**, Yuchen Zhai, Keyan Guo, Hongxin Hu, Shengnan Guo, Zheng Fang, Lingchen Zhao, Chao Shen, Cong Wang, Qian Wang  
   _USENIX Security Symposium, 2025_  
-  [[paper]](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shenyi)  [[preprint]](https://arxiv.org/abs/2502.07557)  [[code]](https://github.com/NISPLab/JBShield)  
+  [[paper]](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shenyi)  [[preprint]](https://arxiv.org/abs/2502.07557)  [[code]](https://github.com/NISPLab/JBShield)  [[Slides]](https://github.com/shenyizg/shenyizg.github.io/blob/master/_talks/slide-jbshield.pdf)
 
 **2024**
 * **Zero-query Adversarial Attack on Black-box Automatic Speech Recognition Systems**  
@@ -57,7 +57,14 @@ Publications
 
 Services
 ======
-* Reviewer
+* Program Committees
+  * Artifact Evaluation Committee, USENIX Security Symposium (USENIX Security) 2026
+* Conference Reviewers
+  * ACM Multimedia Conference (ACM MM) 2025
+  * IEEE International Conference on Multimedia and Expo (ICME) 2024, 2025
+  * International Joint Conference on Neural Networks (IJCNN) 2025
+  * IEEE Conference on Advanced Video and Signal Based Surveillance (AVSS) 2025
+* Journal Reviewers
   * IEEE Transactions on Information Forensics and Security (TIFS)
   * IEEE Transactions on Dependable and Secure Computing (TDSC)
   * IEEE Transactions on Emerging Topics in Computing (TETC)
@@ -67,13 +74,8 @@ Services
   * Computer Vision and Image Understanding (CVIU)
   * Knowledge-Based Systems (KBS)
   * Neurocomputing
-  * ACM MM 2025
-  * IEEE ICME 2024, 2025
-  * IJCNN 2025
-  * IEEE AVSS 2025
-
-
-Projects
+ 
+Talks
 ======
-* [NewAdversarialAttackPaper](https://github.com/daksim/NewAdversarialAttackPaper): A list of recent adversarial attack and defense papers (including those on large language models).
-* [Imagenet-1K-Formatter](https://github.com/daksim/Imagenet-1K-Formatter): Reorganizing the ImageNet-1k dataset into the standard directory structure.
+* ACM SIGSAC China Postgraduate Academic Forum on Cyberspace Security, 2025 [[Talk]](https://www.bilibili.com/video/BV1pEn7zdExm/)
+* JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation, USENIX Security, 2025  [[Slides]](https://github.com/shenyizg/shenyizg.github.io/blob/master/_talks/slide-jbshield.pdf).
