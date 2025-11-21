@@ -61,7 +61,7 @@ Services
   * Artifact Evaluation Committee, USENIX Security Symposium (USENIX Security) 2026
 * Conference Reviewers
   * ACM Multimedia Conference (ACM MM) 2025
-  * IEEE International Conference on Multimedia and Expo (ICME) 2024, 2025
+  * IEEE International Conference on Multimedia and Expo (ICME) 2024, 2025, 2026
   * International Joint Conference on Neural Networks (IJCNN) 2025
   * IEEE Conference on Advanced Video and Signal Based Surveillance (AVSS) 2025
 * Journal Reviewers
@@ -72,6 +72,7 @@ Services
   * ACM Transactions on Cyber-Physical Systems (TCPS)
   * ACM Transactions on Internet Technology (TOIT)
   * Computer Vision and Image Understanding (CVIU)
+  * Information Sciences
   * Knowledge-Based Systems (KBS)
   * Neurocomputing
  
