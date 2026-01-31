@@ -16,6 +16,12 @@ Contact me at [shenyizhang@whu.edu.cn](mailto:shenyizhang@whu.edu.cn) or [syzhan
 
 Publications
 ======
+**2026**
+* **Boosting Adversarial Transferability with Low-Cost Optimization via Maximin Expected Flatness**  
+  Chunlin Qiu, Ang Li, Yiheng Duan, **Shenyi Zhang**, Yuanjie Zhang, Lingchen Zhao  
+  _IEEE Transactions on Information Forensics and Security (TIFS), 2026_  
+  [[paper]](https://ieeexplore.ieee.org/abstract/document/11364188)  [[code]](https://github.com/SignedQiu/MEFAttack)  
+
 **2025**
 * **IntentBreaker: Intent-Adaptive Jailbreak Attack on Large Language Models**  
   Shengnan Guo, Yuchen Zhai, **Shenyi Zhang**, Lingchen Zhao, Zhangyi Wang  
@@ -62,11 +68,12 @@ Services
 * Conference Reviewers
   * ACM Multimedia Conference (ACM MM) 2025
   * IEEE International Conference on Multimedia and Expo (ICME) 2024, 2025, 2026
-  * International Joint Conference on Neural Networks (IJCNN) 2025
+  * International Joint Conference on Neural Networks (IJCNN) 2025, 2026
   * IEEE Conference on Advanced Video and Signal Based Surveillance (AVSS) 2025
 * Journal Reviewers
   * IEEE Transactions on Information Forensics and Security (TIFS)
   * IEEE Transactions on Dependable and Secure Computing (TDSC)
+  * IEEE Transactions on Multimedia (TMM)
   * IEEE Transactions on Emerging Topics in Computing (TETC)
   * IEEE/ACM Transactions on Networking (TON)
   * ACM Transactions on Cyber-Physical Systems (TCPS)
