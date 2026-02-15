@@ -18,7 +18,7 @@ Publications
 ======
 **2026**
 * **Boosting Adversarial Transferability with Low-Cost Optimization via Maximin Expected Flatness**  
-  Chunlin Qiu, Ang Li, Yiheng Duan, **Shenyi Zhang**, Yuanjie Zhang, Lingchen Zhao  
+  Chunlin Qiu, Ang Li, Yiheng Duan, **Shenyi Zhang**, Yuanjie Zhang, Lingchen Zhao, Qian Wang  
   _IEEE Transactions on Information Forensics and Security (TIFS), 2026_  
   [[paper]](https://ieeexplore.ieee.org/abstract/document/11364188)  [[code]](https://github.com/SignedQiu/MEFAttack)  
 
