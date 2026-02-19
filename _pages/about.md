@@ -76,6 +76,7 @@ Services
   * IEEE Transactions on Multimedia (TMM)
   * IEEE Transactions on Emerging Topics in Computing (TETC)
   * IEEE/ACM Transactions on Networking (TON)
+  * ACM Transactions on Knowledge Discovery from Data (TKDD)
   * ACM Transactions on Cyber-Physical Systems (TCPS)
   * ACM Transactions on Internet Technology (TOIT)
   * Computer Vision and Image Understanding (CVIU)
