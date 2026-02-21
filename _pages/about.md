@@ -66,7 +66,7 @@ Services
 * Program Committees
   * Artifact Evaluation Committee, USENIX Security Symposium (USENIX Security) 2026
 * Conference Reviewers
-  * ACM Multimedia Conference (ACM MM) 2025
+  * ACM Multimedia Conference (ACM MM) 2025, 2026
   * IEEE International Conference on Multimedia and Expo (ICME) 2024, 2025, 2026
   * International Joint Conference on Neural Networks (IJCNN) 2025, 2026
   * IEEE Conference on Advanced Video and Signal Based Surveillance (AVSS) 2025
