@@ -17,6 +17,9 @@ Contact me at [shenyizhang@whu.edu.cn](mailto:shenyizhang@whu.edu.cn) or [syzhan
 Publications
 ======
 **2026**
+* **Divide and Conquer: Policy-Aware Jailbreak Defense for Large Language Models**  
+  Yuchen Zhai, Shengnan Guo, **Shenyi Zhang**, Lingchen Zhao	  
+  _International Conference on Knowledge Science, Engineering and Management (KSEM), 2026_  
 * **Boosting Adversarial Transferability with Low-Cost Optimization via Maximin Expected Flatness**  
   Chunlin Qiu, Ang Li, Yiheng Duan, **Shenyi Zhang**, Yuanjie Zhang, Lingchen Zhao, Qian Wang  
   _IEEE Transactions on Information Forensics and Security (TIFS), 2026_  
