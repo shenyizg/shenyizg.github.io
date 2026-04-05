@@ -22,10 +22,10 @@ repository               : "shenyizg/shenyizg.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://nisplab.whu.edu.cn/dfiles/16106/people_files/zhangshenyi.jpg"
+  avatar           : "https://shenyizg.github.io/images/avatar.png"
   name             : "Shenyi Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student at Wuhan University.<br>It’s not hard, It’s just new."
+  bio              : "Ph.D. student at Wuhan University.<br>It’s not hard, it’s just new."
   location         : "Wuhan, China"
   employer         : "Wuhan University"
   uri              : # URL
