@@ -29,7 +29,7 @@ const siteData = {
       school: "Wuhan University"
     },
     {
-      date: "2019 — 2022",
+      date: "2020 — 2022",
       degree: "M.S. in Electronic Information",
       school: "Wuhan University"
     },
