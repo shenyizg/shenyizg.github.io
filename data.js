@@ -25,7 +25,7 @@ const siteData = {
   education: [
     {
       date: "2022 — 2025",
-      degree: "Ph.D. in Cyber Space Security",
+      degree: "Ph.D. in Cyberspace Security",
       school: "Wuhan University"
     },
     {
@@ -80,7 +80,7 @@ const siteData = {
           title: "JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation",
           authors: "Shenyi Zhang, Yuchen Zhai, Keyan Guo, Hongxin Hu, Shengnan Guo, Zheng Fang, Lingchen Zhao, Chao Shen, Cong Wang, Qian Wang",
           venue: "USENIX Security Symposium (USENIX Security), 2025",
-          links: { paper: "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shenyi", preprint: "https://arxiv.org/abs/2502.07557", code: "https://github.com/NISPLab/JBShield", slides: "https://github.com/shenyizg/shenyizg.github.io/blob/master/files/slide-jbshield.pdf" }
+          links: { paper: "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shenyi", preprint: "https://arxiv.org/abs/2502.07557", code: "https://github.com/NISPLab/JBShield", slides: "files/slide-jbshield.pdf" }
         }
       ]
     },
@@ -103,7 +103,7 @@ const siteData = {
           title: "Enhancing the Transferability of Adversarial Examples with Noise Injection Augmentation",
           authors: "Yiheng Duan, Yunjie Ge, Zixuan Wang, Jiayi Yu, Shenyi Zhang, Libing Wu",
           venue: "IEEE International Conference on Multimedia and Expo (ICME), 2024",
-          links: { paper: "#" }
+          links: { paper: "https://ieeexplore.ieee.org/document/10688210" }
         },
         {
           title: "Perception-driven Imperceptible Adversarial Attack against Decision-based Black-box Models",
