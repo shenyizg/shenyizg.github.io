@@ -36,7 +36,7 @@ Publications
   [[paper]](https://ieeexplore.ieee.org/document/11210179) [[preprint]](https://arxiv.org/abs/2504.04394)  
 * **JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation**  
   **Shenyi Zhang**, Yuchen Zhai, Keyan Guo, Hongxin Hu, Shengnan Guo, Zheng Fang, Lingchen Zhao, Chao Shen, Cong Wang, Qian Wang  
-  _USENIX Security Symposium, 2025_  
+  _USENIX Security Symposium (USENIX Security), 2025_  
   [[paper]](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-shenyi)  [[preprint]](https://arxiv.org/abs/2502.07557)  [[code]](https://github.com/NISPLab/JBShield)  [[slides]](https://github.com/shenyizg/shenyizg.github.io/blob/master/_talks/slide-jbshield.pdf)
 
 **2024**
@@ -46,7 +46,7 @@ Publications
   [[paper]](https://dl.acm.org/doi/abs/10.1145/3658644.3670309)  [[preprint]](https://arxiv.org/abs/2406.19311)  
 * **Hijacking Attacks against Neural Networks by Analyzing Training Data**  
   Yunjie Ge, Qian Wang, Huayang Huang, Qi Li, Cong Wang, Chao Shen, Lingchen Zhao, Peipei Jiang, Zheng Fang, **Shenyi Zhang**  
-  _USENIX Security Symposium, 2024_  
+  _USENIX Security Symposium (USENIX Security), 2024_  
   [[paper]](https://www.usenix.org/conference/usenixsecurity24/presentation/ge-hijacking)  [[preprint]](https://arxiv.org/abs/2401.09740)  [[code]](https://github.com/NISPLab/CleanSheet/)  
 * **Enhancing the Transferability of Adversarial Examples with Noise Injection Augmentation**  
   Yiheng Duan, Yunjie Ge, Zixuan Wang, Jiayi Yu, **Shenyi Zhang**, Libing Wu  
@@ -67,9 +67,9 @@ Publications
 Services
 ======
 * Program Committees
-  * Artifact Evaluation Committee, USENIX Security Symposium (USENIX Security) 2026
+  * Artifact Evaluation Committee Member, USENIX Security Symposium (USENIX Security) 2026
+  * Program Committee Member, ACM Multimedia Conference (ACM MM) 2025, 2026
 * Conference Reviewers
-  * ACM Multimedia Conference (ACM MM) 2025, 2026
   * IEEE International Conference on Multimedia and Expo (ICME) 2024, 2025, 2026
   * International Joint Conference on Neural Networks (IJCNN) 2025, 2026
   * IEEE Conference on Advanced Video and Signal Based Surveillance (AVSS) 2025
@@ -89,5 +89,5 @@ Services
  
 Talks
 ======
-* ACM SIGSAC China Postgraduate Academic Forum on Cyberspace Security, 2025 [[talk]](https://www.bilibili.com/video/BV1pEn7zdExm/)
+* ACM SIGSAC China Postgraduate Academic Forum on Cyberspace Security, 2025 [[talk]](https://www.bilibili.com/video/BV1pEn7zdExm)
 * JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation, USENIX Security, 2025  [[slides]](https://github.com/shenyizg/shenyizg.github.io/blob/master/_talks/slide-jbshield.pdf)
