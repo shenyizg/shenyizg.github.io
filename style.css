@@ -385,6 +385,13 @@ h1, h2, h3 {
   font-size: 0.975rem;
 }
 
+.pub-legend {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
 .pub-authors {
   font-size: 0.875rem;
   color: var(--text-secondary);

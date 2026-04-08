@@ -106,7 +106,10 @@
 
   // --- Publications ---
   const pubContainer = document.getElementById("pub-container");
-  pubContainer.innerHTML = d.publications.map(group => {
+  const noteHtml = d.publicationsNote
+    ? `<p class="pub-legend">${esc(d.publicationsNote)}</p>`
+    : "";
+  pubContainer.innerHTML = d.publications.filter(group => group.papers.length > 0).map(group => {
     const papersHtml = group.papers.map(p => {
       const links = Object.entries(p.links || {})
         .filter(([, url]) => url && url !== "#")
@@ -125,6 +128,7 @@
       <div class="pub-year">${group.year}</div>
       <ul class="pub-list">${papersHtml}</ul>`;
   }).join("");
+  pubContainer.innerHTML = noteHtml + pubContainer.innerHTML;
 
   // --- Services (grouped by category, matching sample site) ---
   const servicesList = document.getElementById("services-list");

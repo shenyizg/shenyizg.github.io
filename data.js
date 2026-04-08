@@ -43,6 +43,7 @@ const siteData = {
   // --- Publications ---
   // Top-4 security conferences: CCS, USENIX Security, S&P, NDSS
   // Their abbreviations will be auto-bolded in venue text.
+  // publicationsNote: "# Corresponding author",
   publications: [
     {
       year: 2026,
@@ -123,6 +124,17 @@ const siteData = {
           links: { paper: "https://dl.acm.org/doi/abs/10.1145/3460120.3485383", preprint: "https://arxiv.org/abs/2110.09714" }
         }
       ]
+    },
+    {
+      year: "Preprint",
+      papers: [
+        {
+          title: "Amulet: Fast TEE-Shielded Inference for On-Device Model Protection",
+          authors: "Zikai Mao, Lingchen Zhao, Lei Xu, Wentao Dong, Shenyi Zhang, Cong Wang, Qian Wang",
+          venue: "arXiv, 2512.07495",
+          links: { preprint: "https://arxiv.org/abs/2512.07495" }
+        }
+      ]
     }
   ],
 
@@ -131,6 +143,11 @@ const siteData = {
     {
       term: "Spring 2023",
       course: "Data Structures and Algorithms",
+      role: "Teaching Assistant — Wuhan University"
+    },
+    {
+      term: "Spring 2023",
+      course: "Data Structures Experiments",
       role: "Teaching Assistant — Wuhan University"
     },
   ],
@@ -177,5 +194,5 @@ const siteData = {
   ],
 
   // --- Footer ---
-  footerText: "© 2025 Shenyi Zhang. Built with care."
+  footerText: "© 2026 Shenyi Zhang. Built with care."
 };
