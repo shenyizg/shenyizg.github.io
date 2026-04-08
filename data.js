@@ -150,6 +150,11 @@ const siteData = {
       course: "Data Structures Experiments",
       role: "Teaching Assistant — Wuhan University"
     },
+    {
+      term: "Fall 2018",
+      course: "Automatic Control Theory",
+      role: "Course Assistant — Shandong University"
+    },
   ],
 
   // --- Services ---
