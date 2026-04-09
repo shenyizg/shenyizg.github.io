@@ -36,7 +36,7 @@
   }
 
   // --- Page title ---
-  document.title = `${d.name} — Academic Homepage`;
+  document.title = `${d.name} — Homepage`;
 
   // --- Nav logo ---
   document.getElementById("nav-logo").textContent = d.name;
