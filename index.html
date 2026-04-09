@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="cbiSu5v2AgMnQu58N-xbp75whHvQlFIksiOEYS1CcXI">
+  <meta name="description" content="Shenyi Zhang — Ph.D. Candidate at Wuhan University. Research on adversarial robustness of AI systems, safety alignment and privacy in large language models.">
+  <meta property="og:title" content="Shenyi Zhang — Academic Homepage">
+  <meta property="og:description" content="Ph.D. Candidate at Wuhan University. Research on adversarial robustness of AI systems, safety alignment and privacy in LLMs.">
+  <meta property="og:image" content="https://shenyizg.github.io/images/avatar.png">
+  <meta property="og:url" content="https://shenyizg.github.io">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
   <title>Academic Homepage</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -91,6 +99,13 @@
     </div>
   </section>
 
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
@@ -143,6 +158,30 @@
         }
       });
     });
+
+    // Back to top button
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('visible', window.scrollY > 400);
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Nav highlight on scroll
+    const sections = document.querySelectorAll('header[id], section[id]');
+    const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
+    const observerOpts = { rootMargin: '-20% 0px -75% 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navAnchors.forEach(a => a.classList.remove('active'));
+          const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, observerOpts);
+    sections.forEach(s => observer.observe(s));
   </script>
 </body>
 </html>
