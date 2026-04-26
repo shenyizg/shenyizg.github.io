@@ -178,6 +178,7 @@ const siteData = {
       "ACM Transactions on Cyber-Physical Systems (TCPS)",
       "ACM Transactions on Internet Technology (TOIT)",
       "Computer Vision and Image Understanding (CVIU)",
+      "Information Processing and Management (IPM)",
       "Information Sciences",
       "Knowledge-Based Systems (KBS)",
       "Neurocomputing"
