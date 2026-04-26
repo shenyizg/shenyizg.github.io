@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://shenyizg.github.io/sitemap.xml
