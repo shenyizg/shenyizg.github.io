@@ -49,6 +49,12 @@ const siteData = {
       year: 2026,
       papers: [
         {
+          title: "Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware Gradient Optimization",
+          authors: "Zheng Fang, Xiaosen Wang, Shenyi Zhang, Shaokang Wang, Zhijin Ge",
+          venue: "International Conference on Machine Learning (ICML), 2026",
+          links: {}
+        },
+        {
           title: "Divide and Conquer: Policy-Aware Jailbreak Defense for Large Language Models",
           authors: "Yuchen Zhai, Shengnan Guo, Shenyi Zhang, Lingchen Zhao",
           venue: "International Conference on Knowledge Science, Engineering and Management (KSEM), 2026",
