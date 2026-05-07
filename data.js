@@ -9,8 +9,7 @@ const siteData = {
   name: "Shenyi Zhang",
   title: "Postdoctoral Fellow",
   affiliation: "Institute for Math & AI, Wuhan University",
-  bio: `I am a postdoctoral fellow at Institute for Math & AI, Wuhan University. I received my Ph.D. from School of Cyber Science and Engineering, Wuhan University, advised by Prof. Qian Wang and Prof. Hongxin Hu.
-<br> My work focuses on <strong>adversarial robustness of AI systems</strong>, especially <strong>safety alignment</strong> and <strong>privacy in large language models</strong>.`,
+  bio: `I am a postdoctoral fellow at Institute for Math & AI, Wuhan University, where I am conducting research in AI Security. I received my Ph.D. from School of Cyber Science and Engineering, Wuhan University, advised by Prof. Qian Wang at NIS&P lab. My work focuses on <strong>adversarial robustness of AI systems</strong>, especially <strong>safety alignment</strong> and <strong>privacy in large language models</strong>.`,
   photo: "images/avatar.png",
 
   // --- Links ---
