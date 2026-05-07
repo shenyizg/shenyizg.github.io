@@ -7,9 +7,9 @@ const siteData = {
 
   // --- Profile ---
   name: "Shenyi Zhang",
-  title: "Ph.D. Candidate",
-  affiliation: "School of Cyber Science and Engineering, Wuhan University",
-  bio: `I am a Ph.D. student at School of Cyber Science and Engineering, Wuhan University, where I am conducting research in AI Security, advised by Prof. Qian Wang of NIS&P Lab.
+  title: "Postdoctoral Fellow",
+  affiliation: "Institute for Math & AI, Wuhan University",
+  bio: `I am a postdoctoral fellow at Institute for Math & AI, Wuhan University. I received my Ph.D. from School of Cyber Science and Engineering, Wuhan University, advised by Prof. Qian Wang and Prof. Hongxin Hu.
 <br> My work focuses on <strong>adversarial robustness of AI systems</strong>, especially <strong>safety alignment</strong> and <strong>privacy in large language models</strong>.`,
   photo: "images/avatar.png",
 
@@ -52,7 +52,7 @@ const siteData = {
           title: "Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware Gradient Optimization",
           authors: "Zheng Fang, Xiaosen Wang, Shenyi Zhang, Shaokang Wang, Zhijin Ge",
           venue: "International Conference on Machine Learning (ICML), 2026",
-          links: {}
+          links: { preprint: "https://arxiv.org/abs/2605.04700" }
         },
         {
           title: "Divide and Conquer: Policy-Aware Jailbreak Defense for Large Language Models",
