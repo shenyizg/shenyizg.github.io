@@ -406,6 +406,18 @@ h1, h2, h3 {
   color: var(--accent);
 }
 
+.corresponding-mark {
+  font-size: 0.7em;
+  margin-left: 1px;
+  vertical-align: super;
+  line-height: 0;
+}
+
+.pub-legend .corresponding-mark {
+  margin-right: 4px;
+  margin-left: 0;
+}
+
 .pub-venue {
   font-size: 0.85rem;
   color: var(--text-secondary);

@@ -24,6 +24,11 @@
     return escaped.replaceAll(nameEscaped, `<span class="author-me">${nameEscaped}</span>`);
   }
 
+  // Helper: turn a trailing `†` corresponding-author marker into a styled superscript
+  function styleCorrespondingMark(html) {
+    return html.replace(/†/g, '<sup class="corresponding-mark">†</sup>');
+  }
+
   // Helper: format venue — bold top-4 abbreviations in parentheses
   function formatVenue(venue) {
     let result = esc(venue);
@@ -107,7 +112,7 @@
   // --- Publications ---
   const pubContainer = document.getElementById("pub-container");
   const noteHtml = d.publicationsNote
-    ? `<p class="pub-legend">${esc(d.publicationsNote)}</p>`
+    ? `<p class="pub-legend">${styleCorrespondingMark(esc(d.publicationsNote))}</p>`
     : "";
   pubContainer.innerHTML = d.publications.filter(group => group.papers.length > 0).map(group => {
     const papersHtml = group.papers.map(p => {
@@ -118,7 +123,7 @@
       return `
         <li class="pub-item">
           <span class="pub-title">${esc(p.title)}</span>
-          <span class="pub-authors">${boldName(p.authors)}</span>
+          <span class="pub-authors">${styleCorrespondingMark(boldName(p.authors))}</span>
           <span class="pub-venue">${formatVenue(p.venue)}</span>
           ${links ? `<span class="pub-links">${links}</span>` : ""}
         </li>`;
