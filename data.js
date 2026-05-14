@@ -48,6 +48,12 @@ const siteData = {
       year: 2026,
       papers: [
         {
+          title: "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models",
+          authors: "Chunlin Qiu, Ang Li, Tianxiao Huang, Ruilin Gan, Yunjie Ge, Shenyi Zhang, Huayi Duan, Lingchen Zhao, Chao Shen, Qian Wang†",
+          venue: "USENIX Security Symposium (USENIX Security), 2026",
+          links: {}
+        },
+        {
           title: "Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware Gradient Optimization",
           authors: "Zheng Fang, Xiaosen Wang, Shenyi Zhang†, Shaokang Wang, Zhijin Ge",
           venue: "International Conference on Machine Learning (ICML), 2026",
