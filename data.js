@@ -48,6 +48,18 @@ const siteData = {
       year: 2026,
       papers: [
         {
+          title: "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
+          authors: "Shenyi Zhang, Keyan Guo, Zihao Wang, Xuebin Li, Lingchen Zhao, Hongxin Hu, Chao Shen, Qian Wang",
+          venue: "ACM Conference on Computer and Communications Security (CCS), 2026",
+          links: {}
+        },
+        {
+          title: "PolyVoice: Exploiting Cluster-Level Vulnerabilities for One-to-Many Impersonation in Speaker Verification Systems",
+          authors: "Yunjie Ge, Jinlong Jiang, Yuchen Liu, Huayi Duan, Shenyi Zhang, Lingchen Zhao, Chao Shen, Qian Wang",
+          venue: "ACM Conference on Computer and Communications Security (CCS), 2026",
+          links: {}
+        },
+        {
           title: "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models",
           authors: "Chunlin Qiu, Ang Li, Tianxiao Huang, Ruilin Gan, Yunjie Ge, Shenyi Zhang, Huayi Duan, Lingchen Zhao, Chao Shen, Qian Wang†",
           venue: "USENIX Security Symposium (USENIX Security), 2026",
