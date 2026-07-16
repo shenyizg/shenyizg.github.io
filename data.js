@@ -63,7 +63,7 @@ const siteData = {
           title: "VOID: Defeating Unauthorized Mimicry in Latent Diffusion Models",
           authors: "Chunlin Qiu, Ang Li, Tianxiao Huang, Ruilin Gan, Yunjie Ge, Shenyi Zhang, Huayi Duan, Lingchen Zhao, Chao Shen, Qian Wang†",
           venue: "USENIX Security Symposium (USENIX Security), 2026",
-          links: { preprint: "https://arxiv.org/abs/2606.12263" }
+          links: { paper: "https://www.usenix.org/conference/usenixsecurity26/presentation/qiu-chunlin", preprint: "https://arxiv.org/abs/2606.12263" }
         },
         {
           title: "Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware Gradient Optimization",
@@ -192,6 +192,11 @@ const siteData = {
       "IEEE International Conference on Multimedia and Expo (ICME) 2024, 2025, 2026",
       "International Joint Conference on Neural Networks (IJCNN) 2025, 2026",
       "IEEE Conference on Advanced Video and Signal Based Surveillance (AVSS) 2025"
+    ],
+    "External Reviewers": [
+      "USENIX Security Symposium (USENIX Security) 2024, 2027",
+      "ACM Conference on Computer and Communications Security (CCS) 2026",
+      "IEEE Symposium on Security and Privacy (S&P) 2027"
     ],
     "Journal Reviewers": [
       "IEEE Transactions on Information Forensics and Security (TIFS)",
