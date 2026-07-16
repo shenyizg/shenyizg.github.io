@@ -75,7 +75,7 @@ const siteData = {
           title: "Divide and Conquer: Policy-Aware Jailbreak Defense for Large Language Models",
           authors: "Yuchen Zhai, Shengnan Guo, Shenyi Zhang, Lingchen Zhao†",
           venue: "International Conference on Knowledge Science, Engineering and Management (KSEM), 2026",
-          links: {}
+          links: { paper: "https://link.springer.com/chapter/10.1007/978-981-92-2859-1_29" }
         },
         {
           title: "Boosting Adversarial Transferability with Low-Cost Optimization via Maximin Expected Flatness",
