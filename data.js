@@ -185,6 +185,7 @@ const siteData = {
     "Program Committees": [
       "Program Committee Member, USENIX Security Symposium (USENIX Security) 2027",
       "Program Committee Member, ACM Multimedia Conference (ACM MM) 2025, 2026",
+      "Program Committee Member, AAAI Conference on Artificial Intelligence (AAAI) 2027",
       "Artifact Evaluation Committee Member, USENIX Security Symposium (USENIX Security) 2026",
       "Artifact Evaluation Committee Member, Network and Distributed System Security Symposium (NDSS) 2027"
     ],
