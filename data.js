@@ -9,7 +9,7 @@ const siteData = {
   name: "Shenyi Zhang",
   title: "Postdoctoral Fellow",
   affiliation: "Institute for Math & AI, Wuhan University",
-  bio: `I am a postdoctoral fellow at Institute for Math & AI, Wuhan University, where I am conducting research in AI Security. I received my Ph.D. from School of Cyber Science and Engineering, Wuhan University, advised by Prof. Qian Wang at NIS&P lab. My work focuses on <strong>adversarial robustness of AI systems</strong>, especially <strong>safety alignment</strong> and <strong>privacy in large language models</strong>.`,
+  bio: `I am a postdoctoral fellow at Institute for Math & AI, Wuhan University, where I am conducting research in AI Security. I received my Ph.D. from School of Cyber Science and Engineering, Wuhan University, advised by Prof. Qian Wang at NIS&P lab.`,
   photo: "images/avatar.png",
 
   // --- Links ---
@@ -19,6 +19,53 @@ const siteData = {
   githubUrl: "https://github.com/shenyizg",
   twitterUrl: "",
   cvPdfUrl: "",
+
+  // --- Research Interests ---
+  // icon: one of "shield" | "target" | "wave" | "lock"
+  // works[].match: substring of a publication title — the link is resolved automatically
+  researchIntro: "My work focuses on <strong>adversarial robustness of AI systems</strong>, especially <strong>safety alignment</strong> and <strong>privacy in large language models</strong>.",
+  research: [
+    {
+      icon: "shield",
+      title: "Safety Alignment of LLMs",
+      description: "Large language models can be steered into the very behaviors their alignment was meant to prevent. I study why safety alignment breaks down, and how to make it hold — for text and multimodal models alike.",
+      tags: ["Jailbreak Attack & Defense", "Representation Engineering", "Multimodal LLMs"],
+      works: [
+        { name: "JBShield", venue: "USENIX Security '25", match: "JBShield" },
+        { name: "MMAligner", venue: "CCS '26", match: "MMAligner" }
+      ]
+    },
+    {
+      icon: "target",
+      title: "Adversarial Robustness",
+      description: "Deep learning models remain fragile under small, deliberate perturbations. I study how these vulnerabilities arise under realistic threat models, and what they imply for building systems that are robust by design.",
+      tags: ["Black-box Attacks", "Transferability", "Imperceptibility"],
+      works: [
+        { name: "Perception-driven Attack", venue: "TIFS '24", match: "Perception-driven" },
+        { name: "MEF-Attack", venue: "TIFS '26", match: "Maximin Expected Flatness" }
+      ]
+    },
+    {
+      icon: "wave",
+      title: "Speech & Multimodal Security",
+      description: "Speech and multimodal interfaces increasingly carry security-critical decisions. I examine how such systems can be subverted, and how to make them dependable once deployed in the real world.",
+      tags: ["Speech Recognition", "Speaker Verification", "Audio Language Models"],
+      works: [
+        { name: "ZQ-Attack", venue: "CCS '24", match: "Zero-query" },
+        { name: "PolyVoice", venue: "CCS '26", match: "PolyVoice" }
+      ]
+    },
+    {
+      icon: "lock",
+      title: "Privacy & Model Protection",
+      description: "A deployed model puts both its owner's assets and its users' data at risk. I work on protecting model intellectual property and preserving privacy across the machine learning lifecycle.",
+      tags: ["Model IP Protection", "Training Data Privacy", "Trusted Execution"],
+      works: [
+        { name: "VOID", venue: "USENIX Security '26", match: "VOID" },
+        { name: "Amulet", venue: "Preprint", match: "Amulet" }
+      ]
+    }
+  ],
 
   // --- Education (shown as 2nd section) ---
   education: [

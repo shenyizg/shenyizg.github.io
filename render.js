@@ -97,6 +97,68 @@
     });
   }
 
+  // --- Research Interests ---
+  const RESEARCH_ICONS = {
+    shield: '<path d="M12 2.6l7.4 3.3v5.5c0 4.5-3.1 8.1-7.4 9.3-4.3-1.2-7.4-4.8-7.4-9.3V5.9L12 2.6z"/><path d="M9.1 12.1l2.1 2.1 3.9-4"/>',
+    target: '<circle cx="12" cy="12" r="8.2"/><circle cx="12" cy="12" r="3.4"/><path d="M12 1.7v3.1M12 19.2v3.1M1.7 12h3.1M19.2 12h3.1"/>',
+    wave: '<path d="M4 10v4M8 6.6v10.8M12 3.4v17.2M16 7.6v8.8M20 10.6v2.8"/>',
+    lock: '<rect x="4.2" y="10.2" width="15.6" height="11" rx="2.6"/><path d="M8 10.2V7.4a4 4 0 0 1 8 0v2.8"/><path d="M12 14.6v2.4"/>'
+  };
+
+  // Flatten every paper once, so a research highlight can resolve its own link
+  const allPapers = (d.publications || []).flatMap(g => g.papers || []);
+  function workLink(work) {
+    const key = (work.match || work.name || "").toLowerCase();
+    if (!key) return "";
+    const hit = allPapers.find(p => p.title.toLowerCase().includes(key));
+    if (!hit || !hit.links) return "";
+    return hit.links.paper || hit.links.preprint || hit.links.code || "";
+  }
+
+  const researchSection = document.getElementById("research");
+  const researchList = document.getElementById("research-list");
+  if (researchList && d.research && d.research.length) {
+    const introEl = document.getElementById("research-intro");
+    if (d.researchIntro) {
+      introEl.innerHTML = d.researchIntro;
+    } else {
+      introEl.remove();
+    }
+
+    researchList.innerHTML = d.research.map(r => {
+      const icon = RESEARCH_ICONS[r.icon] || RESEARCH_ICONS.shield;
+      const tags = (r.tags || [])
+        .map(t => `<span class="research-tag">${esc(t)}</span>`)
+        .join("");
+      const works = (r.works || []).map(w => {
+        const url = workLink(w);
+        const label = url
+          ? `<a href="${esc(url)}">${esc(w.name)}</a>`
+          : `<span class="research-work-name">${esc(w.name)}</span>`;
+        const venue = w.venue ? ` <span class="research-work-venue">${esc(w.venue)}</span>` : "";
+        return `<span class="research-work">${label}${venue}</span>`;
+      }).join("");
+
+      return `
+        <article class="research-card">
+          <div class="research-head">
+            <span class="research-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${icon}</svg>
+            </span>
+            <h3>${esc(r.title)}</h3>
+          </div>
+          <p>${esc(r.description)}</p>
+          ${tags ? `<div class="research-tags">${tags}</div>` : ""}
+          ${works ? `<div class="research-works"><span class="research-works-label">Selected work</span>${works}</div>` : ""}
+        </article>`;
+    }).join("");
+  } else if (researchSection) {
+    researchSection.remove();
+    const navLink = document.querySelector('.nav-links a[href="#research"]');
+    if (navLink) navLink.remove();
+  }
+
   // --- Education ---
   const eduList = document.getElementById("edu-list");
   eduList.innerHTML = d.education.map(e => `
