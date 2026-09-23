@@ -237,12 +237,6 @@ const siteData = {
       "Artifact Evaluation Committee Member, Network and Distributed System Security Symposium (NDSS) 2027",
       "Artifact Evaluation Committee Member, IEEE Symposium on Security and Privacy (IEEE S&P) 2027",
     ],
-    "Conference Reviewers": [
-      "International Conference on Learning Representations (ICLR) 2027",
-      "IEEE International Conference on Multimedia and Expo (ICME) 2024, 2025, 2026",
-      "International Joint Conference on Neural Networks (IJCNN) 2025, 2026",
-      "IEEE Conference on Advanced Video and Signal Based Surveillance (AVSS) 2025"
-    ],
     "External Reviewers": [
       "USENIX Security Symposium (USENIX Security) 2024, 2027",
       "ACM Conference on Computer and Communications Security (CCS) 2026",
