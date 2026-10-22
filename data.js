@@ -258,7 +258,8 @@ const siteData = {
       "Information Processing and Management (IPM)",
       "Information Sciences",
       "Knowledge-Based Systems (KBS)",
-      "Neurocomputing"
+      "Neurocomputing",
+      "Signal Processing: Image Communication (IMAGE)"
     ]
   },
 
