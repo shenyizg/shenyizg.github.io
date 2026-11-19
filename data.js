@@ -98,7 +98,7 @@ const siteData = {
           title: "MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration",
           authors: "Shenyi Zhang, Keyan Guo, Zihao Wang, Xuebin Li, Lingchen Zhao, Hongxin Hu, Chao Shen, Qian Wang†",
           venue: "ACM Conference on Computer and Communications Security (CCS), 2026",
-          links: { paper: "https://dl.acm.org/doi/10.1145/3830454.3832599", preprint: "https://arxiv.org/abs/2608.05909", code: "https://github.com/shenyizg/MMAligner" }
+          links: { paper: "https://dl.acm.org/doi/10.1145/3830454.3832599", preprint: "https://arxiv.org/abs/2608.05909", code: "https://github.com/shenyizg/MMAligner", slide: "files/MMAligner-ACM-CCS-2026.pdf" }
         },
         {
           title: "PolyVoice: Exploiting Cluster-Level Vulnerabilities for One-to-Many Impersonation in Speaker Verification Systems",
