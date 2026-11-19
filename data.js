@@ -116,7 +116,7 @@ const siteData = {
           title: "Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware Gradient Optimization",
           authors: "Zheng Fang, Xiaosen Wang, Shenyi Zhang†, Shaokang Wang, Zhijin Ge",
           venue: "International Conference on Machine Learning (ICML), 2026",
-          links: { preprint: "https://arxiv.org/abs/2605.04700" }
+          links: { paper: "https://proceedings.mlr.press/v306/fang26r.html", preprint: "https://arxiv.org/abs/2605.04700" }
         },
         {
           title: "Divide and Conquer: Policy-Aware Jailbreak Defense for Large Language Models",
